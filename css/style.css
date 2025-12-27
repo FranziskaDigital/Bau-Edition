@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .image img {
+    max-width: 400px;
+    border: 1px solid #ccc;
+  }
+  
+  .seg {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+    position: relative;
+  }
+  
+  .seg:hover::after {
+    content: attr(data-comment);
+    position: absolute;
+    left: 0;
+    top: 1.5em;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    width: 300px;
+    z-index: 10;
+  }
+  

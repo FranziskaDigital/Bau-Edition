@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI
+  xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.tei-c.org/ns/1.0 ../xsd/tei_zettel.xsd">
+
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Zettelkatalogeintrag 00008</title>
+        <editor>Franziska Klemstein</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Digitale Edition</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Zettelkatalog</repository>
+            <idno>Z-000008</idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <textClass>
+        <classCode scheme="kasten">Kasten 1</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <facsimile>
+    <graphic url="../images/zettel_00008.jpg"/>
+  </facsimile>
+
+  <text>
+    <body>
+      <p>
+        <seg xml:id="t1">Lack- oder Klebschicht muß mit der Werkstoffoberfläche fest verbunden sein.</seg>
+        <seg xml:id="t2">Die Haftfestigkeit hängt von mehreren Faktoren ab.</seg>
+      </p>
+    </body>
+  </text>
+
+  <standOff>
+    <note xml:id="c1" target="#t1">Grunddefinition der Hafttechnik.</note>
+    <note xml:id="c2" target="#t2">Hinweis auf Materialparameter.</note>
+  </standOff>
+
+</TEI>
