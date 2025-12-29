@@ -29,4 +29,8 @@ body {
     width: 300px;
     z-index: 10;
   }
-  
+
+  .image img {
+    max-width: 300px;
+    height: auto;
+  }
