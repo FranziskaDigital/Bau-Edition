@@ -5,10 +5,18 @@
 <title>Zettelkatalogeintrag 00008</title>
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body><div class="container">
+<body>
+<div class="container">
 <div class="image"><img src="images/zettel_00008.jpg" alt="Z-000008"></div>
 <div class="text">
-<span class="seg" data-comment="Grunddefinition der Hafttechnik.">Lack- oder Klebschicht muß mit der Werkstoffoberfläche fest verbunden sein.</span><br><span class="seg" data-comment="Hinweis auf Materialparameter.">Die Haftfestigkeit hängt von mehreren Faktoren ab.</span><br>
+<span class="seg" onclick="toggleComment('t1')">Lack- oder Klebschicht muß mit der Werkstoffoberfläche fest verbunden sein.<span class="comment-box" id="comment-t1">Grunddefinition der Hafttechnik.</span></span><br><span class="seg" onclick="toggleComment('t2')">Die Haftfestigkeit hängt von mehreren Faktoren ab.<span class="comment-box" id="comment-t2">Hinweis auf Materialparameter.</span></span><br>
 </div>
-</div></body>
+</div>
+<script>
+          function toggleComment(id) {
+            const el = document.getElementById('comment-' + id);
+            el.classList.toggle('visible');
+          }
+        </script>
+</body>
 </html>
