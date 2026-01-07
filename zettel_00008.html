@@ -7,14 +7,73 @@
 </head>
 <body>
 <div class="container">
-<div class="image"><img src="images/zettel_00008.jpg" alt="Z-000008"></div>
+<div class="image"><img src="images/zettel_00008.jpg" alt="ZB 140"></div>
 <div class="text">
-<span class="seg" onclick="toggleComment('t1')">Lack- oder Klebschicht muß mit der Werkstoffoberfläche fest verbunden sein.<span class="comment-box" id="comment-t1">Grunddefinition der Hafttechnik.</span></span><br><span class="seg" onclick="toggleComment('t2')">Die Haftfestigkeit hängt von mehreren Faktoren ab.<span class="comment-box" id="comment-t2">Hinweis auf Materialparameter.</span></span><br>
+<div class="shelfmark">ZB 140</div>
+  
+      <p>
+  
+        <br>691.57 : 620.179.4 Lacke, Haftfestigkeit
+        <br>691.178 : 620.179.4 Klebstoffe, Haftfestigkeit
+  
+        <br>
+        <br>
+        <span class="person" onclick="togglePerson('p1')">
+          Zorll,
+          U.
+        <span class="person-box" id="person-p1">
+        Zorll, Ulrich —
+        <a href="https://d-nb.info/gnd/1068372427" target="_blank">GND-Datensatz</a></span></span>
+        <div class="bibl" onclick="toggleBibl('b1')">
+
+          <p>
+            <br><span style="text-decoration: underline;">Hafttechnik – Grundlagen und Anwendungen</span>
+            <br>Chemie-Ing.-Technik, Weinheim <span style="text-decoration: underline;">60</span> (1988) 3, S. 162-
+            <br>168, 11 ill., 5 Tab., 10 Lit.
+          </p>
+        
+        <div class="bibl-box" id="bibl-b1">
+<strong>Publikation:</strong><br>Hafttechnik – Grundlagen und Anwendungen Chemie-Ing.-Technik, Weinheim 60 (1988) 3, S. 162- 168, 11 ill., 5 Tab., 10 Lit.<br><br><a href="https://doi.org/10.1002/cite.330600304" target="_blank">Zur Veröffentlichung (DOI)</a>
 </div>
+</div>
+        
+  
+        <br>
+        <br>Lack- oder Klebschicht muß mit der Werkstoffoberfläche
+        <br>fest verbunden sein, wenn das System klimatischen und
+        <br>mechanischen Belastungen ausgesetzt ist. Bereits beim
+        <br>Auftragen des flüssigen Lacks oder Klebstoffe wird
+        <br>mit gutem Benetzungsvermögen die Grundlage für hohe
+        <br>Haftfestigkeit nach der Filmbildung gelegt. Entschei-
+        <br>dend ist die Güte, mit der die in der Grenzfläche wir-
+        <br>ksamen Kräfte aufeinander abgestimmt sind. Erhebliche
+        <br>Verbesserung des Haftvermögens mit zweckmäßiger Grenz-
+        <br>flächengestaltung. Bedeutung der Grenzflächenprofil-
+        <br>form, Bewertung des Haftvermögens. Ursachen für die
+        <br>Beeinträchtigung des Haftvermögens organischer Schich-
+        <br>ten. Haftfestigkeitswerte verschiedener Lackierungen
+        <br>auf Stahlblech und verzinktes Blech.        17.5.88
+  
+        <br>
+        <br>
+        <span class="signed-line">Siegmund, H. wb</span><br>
+      </p>
+  
+    </div>
 </div>
 <script>
           function toggleComment(id) {
             const el = document.getElementById('comment-' + id);
+            el.classList.toggle('visible');
+          }
+
+          function togglePerson(id) {
+            const el = document.getElementById('person-' + id);
+            el.classList.toggle('visible');
+          }
+
+          function toggleBibl(id) {
+            const el = document.getElementById('bibl-' + id);
             el.classList.toggle('visible');
           }
         </script>

@@ -8,6 +8,7 @@ body {
   display: flex;
   gap: 2rem;
   padding: 1rem;
+  position: relative;
 }
 
 .image img {
@@ -44,5 +45,73 @@ body {
 
 /* Wenn die JS-Funktion "visible" hinzufügt → anzeigen */
 .comment-box.visible {
+  display: block;
+}
+
+.in-progress {
+  color: #888;
+  font-style: italic;
+}
+
+.person {
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+}
+
+.person-box {
+  display: none;
+  position: absolute;
+  top: 1.5em;
+  left: 0;
+  background: white;
+  border: 1px solid #666;
+  padding: 0.5em;
+  max-width: 280px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.25);
+  z-index: 30;
+}
+
+.person-box.visible {
+  display: block;
+}
+
+/* rechts ausgerichtete Signaturzeile */
+.signed-line {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  font-style: italic;
+}
+
+.shelfmark {
+  text-align: right;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.bibl {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.bibl-box {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 105%;
+  width: 260px;
+  background: #fff;
+  border: 1px solid #666;
+  padding: 0.6em;
+  box-shadow: 2px 2px 6px rgba(0,0,0,.25);
+  z-index: 40;
+  font-size: .9em;
+}
+
+.bibl-box.visible {
   display: block;
 }

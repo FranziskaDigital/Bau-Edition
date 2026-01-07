@@ -19,6 +19,10 @@
             </strong> –
             <a href="zettel_00008.html">Zettel 00008</a>
           </li>
+          <!-- in Vorbereitung -->
+          <li><strong>Kasten 2</strong> – <span class="in-progress">(in Vorbereitung)</span></li>
+          <li><strong>Kasten 3</strong> – <span class="in-progress">(in Vorbereitung)</span></li>
+          <li><strong>Kasten 4</strong> – <span class="in-progress">(in Vorbereitung)</span></li>
         </ul>
       </body>
     </html>

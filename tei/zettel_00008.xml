@@ -17,6 +17,11 @@
         <msDesc>
           <msIdentifier>
             <repository>Zettelkatalog</repository>
+
+            <!-- Bestandsnummer auf der Karte -->
+            <idno type="shelfmark">ZB 140</idno>
+
+            <!-- interne digitale ID -->
             <idno>Z-000008</idno>
           </msIdentifier>
         </msDesc>
@@ -36,16 +41,66 @@
 
   <text>
     <body>
-      <p>
-        <seg xml:id="t1">Lack- oder Klebschicht muß mit der Werkstoffoberfläche fest verbunden sein.</seg>
-        <seg xml:id="t2">Die Haftfestigkeit hängt von mehreren Faktoren ab.</seg>
-      </p>
+  
+      <ab>
+  
+        <lb/>691.57 : 620.179.4 Lacke, Haftfestigkeit
+        <lb/>691.178 : 620.179.4 Klebstoffe, Haftfestigkeit
+  
+        <lb/>
+        <lb/>
+        <persName xml:id="p1"
+                  ref="https://d-nb.info/gnd/1068372427">
+          <surname>Zorll</surname>,
+          <forname type="initial">U.</forname>
+        </persName>
+        <biblStruct xml:id="b1" corresp="https://doi.org/10.1002/cite.330600304">
+
+          <ab>
+            <lb/><hi rend="underline">Hafttechnik – Grundlagen und Anwendungen</hi>
+            <lb/>Chemie-Ing.-Technik, Weinheim <hi rend="underline">60</hi> (1988) 3, S. 162-
+            <lb/>168, 11 ill., 5 Tab., 10 Lit.
+          </ab>
+        
+        </biblStruct>
+        
+  
+        <lb/>
+        <lb/>Lack- oder Klebschicht muß mit der Werkstoffoberfläche
+        <lb/>fest verbunden sein, wenn das System klimatischen und
+        <lb/>mechanischen Belastungen ausgesetzt ist. Bereits beim
+        <lb/>Auftragen des flüssigen Lacks oder Klebstoffe wird
+        <lb/>mit gutem Benetzungsvermögen die Grundlage für hohe
+        <lb/>Haftfestigkeit nach der Filmbildung gelegt. Entschei-
+        <lb/>dend ist die Güte, mit der die in der Grenzfläche wir-
+        <lb/>ksamen Kräfte aufeinander abgestimmt sind. Erhebliche
+        <lb/>Verbesserung des Haftvermögens mit zweckmäßiger Grenz-
+        <lb/>flächengestaltung. Bedeutung der Grenzflächenprofil-
+        <lb/>form, Bewertung des Haftvermögens. Ursachen für die
+        <lb/>Beeinträchtigung des Haftvermögens organischer Schich-
+        <lb/>ten. Haftfestigkeitswerte verschiedener Lackierungen
+        <lb/>auf Stahlblech und verzinktes Blech.        17.5.88
+  
+        <lb/>
+        <lb/>
+        <signed>Siegmund, H. wb</signed>
+      </ab>
+  
     </body>
   </text>
-
+  
   <standOff>
-    <note xml:id="c1" target="#t1">Grunddefinition der Hafttechnik.</note>
-    <note xml:id="c2" target="#t2">Hinweis auf Materialparameter.</note>
+    <listPerson>
+      <person xml:id="pers-zorll">
+        <persName>
+          <forename>Ulrich</forename>
+          <surname>Zorll</surname>
+        </persName>
+        <idno type="gnd">1068372427</idno>
+        <idno type="uri">https://d-nb.info/gnd/1068372427</idno>
+      </person>
+    </listPerson>
+  
   </standOff>
 
 </TEI>
